@@ -2,7 +2,7 @@ from django.db import models
 from datetime import datetime
 
 class Realtor(models.Model):
-    name = models.CharField(max_lenth = 200)
+    name = models.CharField(max_length = 200)
     photo = models.ImageField(upload_to='photo/%Y/%m/%d/')
     description = models.TextField(blank=True)
     phone = models.CharField(max_length = 20)
