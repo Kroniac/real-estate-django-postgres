@@ -1,3 +1,10 @@
 {
-    "python.pythonPath": "/home/farid/.virtualenvs/new_django_project/bin/python"
+    "python.pythonPath": "/home/farid/.virtualenvs/new_django_project/bin/python",
+    "python.linting.enabled": true,
+    "python.testing.pytestArgs": [
+        "listings"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
 }
