@@ -170,6 +170,8 @@
             <span>&times;</span>
           </button>
         </div>
+        <div clsss="modal-body">
+          <form action="{% url 'contact' %}" method="POST">
             {% csrf_token %}
             {% if user.is_authenticated %}
               <input type="hidden" name="user_id" value="{{ user.id }}">
